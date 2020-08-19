@@ -26,6 +26,7 @@ $mobile-width: 767px;
 
   @media (max-width: $tablet-width) {
     padding-bottom: 20px;
+    height: 6vh;
   }
 }
 
@@ -109,7 +110,7 @@ $mobile-width: 767px;
     display: none;
     position: absolute;
     left: 0;
-    top: 55px;
+    top: 15vh;
     width: 100%;
     z-index: 20;
   }
