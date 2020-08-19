@@ -297,8 +297,8 @@ body {
   height: 10vh; }
   @media (max-width: 1199px) {
     .header__logo-links {
-      padding-bottom: 20px;
-      height: 4vh; } }
+      padding-bottom: 4vh;
+      height: 6vh; } }
 
 .header__logo-link {
   margin-right: auto; }
