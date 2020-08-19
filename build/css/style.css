@@ -298,7 +298,7 @@ body {
   @media (max-width: 1199px) {
     .header__logo-links {
       padding-bottom: 20px;
-      height: 6vh; } }
+      height: 4vh; } }
 
 .header__logo-link {
   margin-right: auto; }
