@@ -391,12 +391,12 @@ body {
   line-height: 22px;
   font-weight: 500;
   padding: 3vh 0;
-  width: 215px;
+  width: 200px;
   text-align: center;
   background-color: #ffffff;
-  margin-left: -44px;
-  -webkit-clip-path: polygon(21% 0, 100% 0, 100% 100%, 0 100%);
-          clip-path: polygon(21% 0, 100% 0, 100% 100%, 0 100%);
+  margin-left: -35px;
+  -webkit-clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
   position: relative;
   z-index: 15; }
   @media (max-width: 1199px) {
@@ -432,34 +432,48 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); } }
 
+.header__image img {
+  display: none; }
+
 @media (max-width: 767px) {
   .header__image {
-    width: 30vw;
-    height: 40vh;
+    width: 100vw;
     position: relative;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     min-width: 165px; } }
 
+@media (max-width: 767px) {
+  .header__image {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    background-size: cover;
+    background-image: none;
+    width: 20%;
+    background-color: #d9b595; }
+    .header__image img {
+      width: 100%;
+      display: block; } }
+
 .header__image::before {
   content: "";
-  width: 51vw;
+  width: 42vw;
   height: 100vh;
   top: 0;
   right: 0;
   position: absolute;
   z-index: -1;
-  -webkit-clip-path: polygon(387px 0, 100% 0, 100% 100%, 0 100%);
-          clip-path: polygon(387px 0, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(300px 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(300px 0, 100% 0, 100% 100%, 0 100%);
   background-color: #d9b595;
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
-  background-position: -22px 100%;
+  background-position: -12px 100%;
   background-size: 102%; }
   @media (max-width: 1560px) {
     .header__image::before {
-      max-width: 605px; } }
+      max-width: 520px; } }
   @media (min-width: 1560px) {
     .header__image::before {
       max-width: 41%; } }
@@ -471,11 +485,7 @@ body {
       max-width: 390px; } }
   @media (max-width: 767px) {
     .header__image::before {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-              clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-      width: 100%;
-      height: 100%;
-      background-size: cover; } }
+      display: none; } }
 
 .header__promo {
   width: 70vw;
