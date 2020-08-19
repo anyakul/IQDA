@@ -297,7 +297,8 @@ body {
   height: 10vh; }
   @media (max-width: 1199px) {
     .header__logo-links {
-      padding-bottom: 20px; } }
+      padding-bottom: 20px;
+      height: 6vh; } }
 
 .header__logo-link {
   margin-right: auto; }
@@ -361,7 +362,7 @@ body {
       display: none;
       position: absolute;
       left: 0;
-      top: 55px;
+      top: 15vh;
       width: 100%;
       z-index: 20; } }
 
